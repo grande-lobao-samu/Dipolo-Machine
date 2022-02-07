@@ -3,7 +3,8 @@
 Utiliza o programa PSI 4 para calcular dipolo e dipolo induzido de diferentes moléculas que estão na base em comparação com íons
 
 O script atualmente não tem erros ao colocar dados de resposta que não são esperados
-sempre responda apenas com números quando pedido, se for usar separador decimal utilize ponto
+alem do nome do experimento no inicio, todas as respostas são apenas números! 
+se for usar separador decimal utilize ponto
 
 atualmente há na base tanto moléculas polares como apolares, os valores para os cálculos foram retirados do nist.
 as geometrias das moléculas utilizadas foram otimizadas no gauss view.
