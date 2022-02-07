@@ -60,10 +60,10 @@ arquivoquant=$(echo "$nomeexp/calculo_quantico_$nomeexp.txt")
 arquivoderiv=$(echo "$nomeexp/calculo_derivado_$nomeexp.txt")
 
 echo "Cálculos Quânticos de $string de $nomeexp" >> $arquivoquant
-echo "Distância[Angstrom]; Energia[kJ]" >> $arquivoquant
+echo "Distância[Angstrom]; Energia[kJ/mol]" >> $arquivoquant
 
 echo "Cálculos Derivados de $string de $nomeexp" >> $arquivoderiv
-echo "Distância[Angstrom]; Energia[kJ]" >> $arquivoderiv
+echo "Distância[Angstrom]; Energia[kJ/mol]" >> $arquivoderiv
 
 echo "..."
 echo "insira o parâmetro de energia mínima"
