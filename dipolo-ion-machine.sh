@@ -90,7 +90,15 @@ echo "Início dos cálculos, distância utilizada será $dist"
 arquivodat=$nomeexp/$nomeexp$dist.dat
 arquivoout=$nomeexp/$nomeexp$dist.out
 
-cat base/$molecula.txt > $arquivodat
+#coloca o cabecalho
+cat >> $arquivodat << EOF 
+molecule {
+    0 1
+EOF
+
+#introduz primeira molecula no dat
+cat base/$molecula.txt >> $arquivodat
+
 cat >> $arquivodat << EOF
     --
     #ion
