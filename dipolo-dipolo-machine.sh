@@ -45,7 +45,7 @@ rm -f $nomeexp/*.txt
 arquivoquant=$(echo "$nomeexp/calculo_quantico_$nomeexp.txt")
 
 echo "Cálculos Quânticos de $string1, $string2, $string3 de $nomeexp" >> $arquivoquant
-echo "Distância[Angstrom]; Eletrostatica Energia[kJ]; Inducao Energia[kJ]; Dispersao Energia[kJ]; Potencial de Van der Waals [kJ]" >> $arquivoquant
+echo "Distância[Angstrom]; Eletrostatica Energia[kJ/mol; Inducao Energia[kJ/mol]; Dispersao Energia[kJ/mol]; Potencial de Van der Waals [kJ/mol]" >> $arquivoquant
 
 echo "..."
 echo "insira o parâmetro de energia mínima"
@@ -85,6 +85,7 @@ cat base/$molecula.txt >> $arquivodat
 #separa as moleculas
 cat >> $arquivodat << EOF
     --
+    0 1
 EOF
 
 
