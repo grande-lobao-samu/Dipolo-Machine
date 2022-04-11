@@ -8,7 +8,7 @@ atualmente há na base tanto moléculas polares como apolares, os valores para o
 as geometrias das moléculas utilizadas foram otimizadas no gauss view utilizando o metodo B3LYP/6-31G.
 deixe a pasta /base no mesmo diretório que dipolomachine.sh
 
-############################ Dipolo Ion Machine ######################################################################
+############################ Dipolo Ion Machine ############################
 
 Utiliza o programa PSI 4 para calcular dipolo e dipolo induzido de diferentes moléculas que estão na base com íons
 Esse cálculo de energia é comparado com os valores da equação derivada de cálculo de energia potencial.
@@ -37,7 +37,7 @@ litio_agua_frente
 
 Então é só esperar!
 
-############################ Dipolo Dipolo Machine ######################################################################
+############################ Dipolo Dipolo Machine ############################
 
 Utiliza o programa PSI 4 para calcular potencial eletrostático, de dispersão e de indução de diferentes moléculas que estão na base.
 
