@@ -1,6 +1,6 @@
-# Calculador-de-dipolo--on-e-dipolo-induzido
+# Calculador-de-dipolo-Ion-e-dipolo-induzido-Ion
 
-Utiliza o programa PSI 4 para calcular dipolo e dipolo induzido de diferentes moléculas que estão na base em comparação com íons
+Utiliza o programa PSI 4 para calcular dipolo e dipolo induzido de diferentes moléculas que estão na base com íons
 
 O script atualmente não tem erros ao colocar dados de resposta que não são esperados
 alem do nome do experimento no inicio, todas as respostas são apenas números! 
